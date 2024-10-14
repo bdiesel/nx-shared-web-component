@@ -6,7 +6,11 @@
     "outDir": "dist",
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
     "emitDeclarationOnly": false,
-    "types": ["node"]
+    "types": ["node"],
+    "lib": [
+            "es2016",
+            "dom"
+    ]
   },
   "include": ["src/**/*.ts"],
   "references": []
